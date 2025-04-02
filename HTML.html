@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEL-Connect - Plataforma para pacientes con TEL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#ejercicios">Ejercicios</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#progreso">Progreso</a></li>
+        <li><a href="#comunidad">Comunidad</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Ejercicios -->
+    <section id="ejercicios">
+      <h2>Ejercicios Interactivos</h2>
+      <p>Elige tu edad para acceder a ejercicios personalizados.</p>
+      <div>
+        <button id="ejercicioInfantil">Ejercicios Infantiles (3-6 años)</button>
+        <button id="ejercicioPrimaria">Ejercicios Primaria (7-12 años)</button>
+        <button id="ejercicioAdolescentes">Ejercicios Adolescentes y Adultos</button>
+      </div>
+      <div id="ejercicioDetalle"></div>
+    </section>
+
+    <!-- Sección Recursos -->
+    <section id="recursos">
+      <h2>Recursos para Familias y Logopedas</h2>
+      <ul>
+        <li><a href="#">Guías de intervención</a></li>
+        <li><a href="#">Vídeos educativos sobre TEL</a></li>
+        <li><a href="#">Plan semanal de ejercicios</a></li>
+      </ul>
+    </section>
+
+    <!-- Sección Progreso -->
+    <section id="progreso">
+      <h2>Registro de Progreso</h2>
+      <button onclick="registrarProgreso()">Marcar Ejercicio Completado</button>
+      <div id="progresoLista">
+        <h3>Ejercicios Completados:</h3>
+        <ul id="listaProgreso"></ul>
+      </div>
+    </section>
+
+    <!-- Sección Comunidad -->
+    <section id="comunidad">
+      <h2>Comunidad y Apoyo</h2>
+      <p>Participa en el foro, accede a eventos y conecta con otros usuarios.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TEL-Connect. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
